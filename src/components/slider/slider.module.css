@@ -1,0 +1,101 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.card__titleWrapper {
+    align-self: center;
+    margin-bottom: 32px;
+}
+
+.card__title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
+    color: #135B77;
+}
+
+.card__title__small {
+    font-size: 48px;
+}
+
+.card__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
+    color: #515151;
+}
+
+.card__blockWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.card__block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 419px;
+    padding: 24px;
+    color: #ffffff;
+    background-color: #00ADEF;
+    font-size: 16px;
+    font-family: PT-Sans, Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.card__block__ii {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 24px;
+    min-width: 419px;
+    max-width: 600px;
+}
+
+.card__block__medicine {
+    min-width: 419px;
+    max-width: 500px;
+}
+
+.block__title {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.block__text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.text {}
+
+.text__list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.text__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.text__medium {
+    font-size: 20px;
+}
+
+.text__big {
+    font-size: 30px;
+}

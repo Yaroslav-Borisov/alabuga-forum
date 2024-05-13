@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+    background-color: #ffffff;
+}
+
+.navigation {
+    display: flex;
+    gap: 24px;
+}
+
+.navigation__link {
+    color: #000000;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navigation__link:hover {
+    color: #0085ba;
+}
