@@ -31,7 +31,7 @@ const Slider = () => {
                 </div>
                 <div className={styles.text__wrapper}>
                   <span className={styles.text__medium}>Лучший получает</span>
-                  <span className={styles.text__big}>500 тысяч рублей!</span>
+                  <span className={styles.text__big}>300 тысяч рублей!</span>
                 </div>
               </div>
               <div className={styles.card__block}>
@@ -70,7 +70,7 @@ const Slider = () => {
                 </div>
                 <div className={styles.text__wrapper}>
                   <span className={styles.text__medium}>Приз за лучшую идею</span>
-                  <span className={styles.text__big}>300 тысяч рублей!</span>
+                  <span className={styles.text__big}>200 тысяч рублей!</span>
                 </div>
                 <div className={styles.text__wrapper}>
                   <span className={styles.text__medium}>Приз зрительских симпатий</span>
