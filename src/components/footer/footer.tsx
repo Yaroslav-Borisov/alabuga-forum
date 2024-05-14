@@ -23,7 +23,9 @@ const Footer = () => {
             Мы ждём именно тебя!
           </p>
         </div>
-        <button className={styles.footer__button}>Заявка</button>
+        <a href="#application">
+          <button className={styles.footer__button}>Заявка</button>
+        </a>
       </div>
     </footer>
   );

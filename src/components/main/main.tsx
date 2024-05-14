@@ -6,6 +6,7 @@ import styles from './main.module.css';
 import postscribe from 'postscribe';
 import Slider from '../slider/slider';
 import DashedLine from '../icons/DashedLine';
+import LogoIcon from '../icons/Logo';
 
 const Main = () => {
   useEffect(() => {
@@ -31,7 +32,9 @@ const Main = () => {
           <HomeDateIcon />
         </div>
         <div className={styles.home__buttonWrapper}>
-          <HomeButtonIcon />
+          <a href="#application">
+            <HomeButtonIcon />
+          </a>
         </div>
       </div>
       <div className={styles.content}>
@@ -42,36 +45,48 @@ const Main = () => {
           БОЛЕЕ 2.000.000 РУБЛЕЙ РАСПРЕДЕЛЕННЫЕ КАЖДОМУ ПОБЕДИТЕЛЮ!
         </span>
       </div>
-      <div className={styles.program}>
+      <div className={styles.program} id="about">
         <h2 className={styles.program__title}>О программе</h2>
         <Slider />
       </div>
-      <div className={styles.terms}>
+      <div className={styles.terms} id="terms">
         <h2 className={styles.terms__title}>Условия участия в программе</h2>
         <div className={styles.terms__content}>
           <DashedLine className={styles.content__line} />
-          <p className={styles.content__text__right}>
+          <div className={styles.content__text__right}>
+            <div className={styles.content__text__rightIconWrapper}>
+              <span>Вам должно быть от 15 до 24 лет</span>
+              <LogoIcon color={'#00ADEF'} className={styles.content__text__rightIcon} />
+            </div>
             Вы готовы прибыть
             <br />в <span className={styles.text__blue}>ОЭЗ «Алабуга»</span> г. Елабуга
             <br />
             Республика Татарстан
             <br />с 28 июня по 5 июля.
-          </p>
-          <p className={styles.content__text__left}>
+          </div>
+          <div className={styles.content__text__left}>
+            <div className={styles.content__text__leftIconWrapper}>
+              <LogoIcon color={'#7DD5F7'} className={styles.content__text__leftIcon} />
+              <span>Мы оплатим вам!</span>
+            </div>
             Перелёт
             <br />
             Жильё
             <br />
             Питание
-          </p>
-          <p className={styles.content__text__bottom}>
+          </div>
+          <div className={styles.content__text__bottom}>
+            <div className={styles.content__text__bottomIconWrapper}>
+              <span>Вы полны энергии и хотите развиваться!</span>
+              <LogoIcon color={'#3B66BA'} className={styles.content__text__bottomIcon} />
+            </div>
             <span className={styles.text__blue}>Наша компания</span> – лидер по мировым практикам,
             если вы энергичны, хотите развиваться и считаете себя лидером, мы ждем Вас! Вы готовы
             прибыть
-          </p>
+          </div>
         </div>
       </div>
-      <div className={styles.application}>
+      <div className={styles.application} id="application">
         <h2 className={styles.application__title}>Заявка для участия</h2>
         <div id="form"></div>
       </div>

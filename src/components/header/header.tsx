@@ -8,8 +8,15 @@ const Header = () => {
         <LogoAlabugaIcon />
       </div>
       <nav className={styles.navigation}>
-        <a className={styles.navigation__link}>О программе</a>
-        <a className={styles.navigation__link}>Условия участия</a>
+        <a className={styles.navigation__link} href="#about">
+          О программе
+        </a>
+        <a className={styles.navigation__link} href="#terms">
+          Условия участия
+        </a>
+        <a className={styles.navigation__link} href="#application">
+          Участвовать
+        </a>
       </nav>
     </header>
   );

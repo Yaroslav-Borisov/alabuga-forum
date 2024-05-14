@@ -103,7 +103,7 @@
 }
 
 .terms {
-    padding: 60px;
+    padding: 60px 60px 90px 60px;
 }
 
 .terms__title {
@@ -127,7 +127,7 @@
 .content__text__right {
     position: absolute;
     top: 125px;
-    right: 185px;
+    right: 242px;
     z-index: 2;
     width: 628px;
     margin: 0;
@@ -139,10 +139,32 @@
     font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
 }
 
+.content__text__rightIconWrapper {
+    position: absolute;
+    top: -70px;
+    right: -76px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    z-index: 2;
+}
+
+.content__text__rightIconWrapper span {
+    color: #000000;
+    text-align: right;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: PT-Sans, Arial, Helvetica, sans-serif;
+}
+
+.content__text__rightIcon {
+    z-index: 2;
+}
+
 .content__text__left {
     position: absolute;
-    top: 800px;
-    left: 185px;
+    top: 840px;
+    left: 170px;
     z-index: 2;
     width: 628px;
     margin: 0;
@@ -154,6 +176,28 @@
     font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
 }
 
+.content__text__leftIconWrapper {
+    position: absolute;
+    top: -75px;
+    left: -80px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    z-index: 2;
+}
+
+.content__text__leftIconWrapper span {
+    color: #000000;
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: PT-Sans, Arial, Helvetica, sans-serif;
+}
+
+.content__text__leftIcon {
+    z-index: 2;
+}
+
 .content__text__bottom {
     width: 1000px;
     margin: 0;
@@ -163,6 +207,28 @@
     font-weight: 700;
     font-size: 36px;
     font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
+}
+
+.content__text__bottomIconWrapper {
+    position: absolute;
+    bottom: 199px;
+    right: 145px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    z-index: 2;
+}
+
+.content__text__bottomIconWrapper span {
+    color: #000000;
+    text-align: right;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: PT-Sans, Arial, Helvetica, sans-serif;
+}
+
+.content__text__bottomIcon {
+    z-index: 2;
 }
 
 .application {
