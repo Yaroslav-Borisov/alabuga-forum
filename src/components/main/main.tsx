@@ -27,7 +27,7 @@ const Main = () => {
         <div className={styles.home__blotWrapper}>
           <HomeBlotIcon />
         </div>
-        <h2 className={styles.home__title}>САМОЕ МАСШТАБНОЕ МЕРОПРИЯТИЕ ОЭЗ ППТ «АЛАБУГА»!</h2>
+        <h2 className={styles.home__title}>Будущее твоими руками! Создадим будущие вместе!</h2>
         <div className={styles.home__dateWrapper}>
           <HomeDateIcon />
         </div>
@@ -38,11 +38,13 @@ const Main = () => {
         </div>
       </div>
       <div className={styles.content}>
+        <span className={styles.content__desc}>
+          БОЛЕЕ <span style={{ color: '#00ADEF' }}>2.000.000</span> РУБЛЕЙ РАСПРЕДЕЛЕННЫЕ КАЖДОМУ
+          ПОБЕДИТЕЛЮ!
+        </span>
+        <span className={styles.content__desc__grey}>Проектно-образовательный интенсив.</span>
         <span className={styles.content__desc__grey}>
           Нетворкинг, обучение, выявление талантов, новые идеи!
-        </span>
-        <span className={styles.content__desc}>
-          БОЛЕЕ 2.000.000 РУБЛЕЙ РАСПРЕДЕЛЕННЫЕ КАЖДОМУ ПОБЕДИТЕЛЮ!
         </span>
       </div>
       <div className={styles.program} id="about">
