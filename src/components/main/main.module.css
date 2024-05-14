@@ -11,7 +11,7 @@
     height: 100%;
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     background-color: #ffffff;
-
+    overflow: hidden;
 }
 
 .home {
@@ -103,7 +103,30 @@
 }
 
 .terms {
+    position: relative;
     padding: 60px 60px 90px 60px;
+}
+
+.terms::before {
+    content: '';
+    position: absolute;
+    top: 150px;
+    right: -380px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(59, 102, 186, 0.35);
+    border-radius: 50%;
+}
+
+.terms::after {
+    content: '';
+    position: absolute;
+    bottom: 600px;
+    left: -305px;
+    width: 400px;
+    height: 400px;
+    background-color: #E5F3F9;
+    border-radius: 50%;
 }
 
 .terms__title {
@@ -232,10 +255,22 @@
 }
 
 .application {
+    position: relative;
     box-sizing: border-box;
     width: 100%;
     padding: 56px;
     background-color: #E8F4FA;
+}
+
+.application::before {
+    content: '';
+    position: absolute;
+    top: -615px;
+    right: -295px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(125, 213, 247, 0.6);
+    border-radius: 50%;
 }
 
 .application__title {

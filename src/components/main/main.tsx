@@ -62,7 +62,7 @@ const Main = () => {
             <br />в <span className={styles.text__blue}>ОЭЗ «Алабуга»</span> г. Елабуга
             <br />
             Республика Татарстан
-            <br />с 28 июня по 5 июля.
+            <br />с 28 июня по 5 июля
           </div>
           <div className={styles.content__text__left}>
             <div className={styles.content__text__leftIconWrapper}>
@@ -81,8 +81,7 @@ const Main = () => {
               <LogoIcon color={'#3B66BA'} className={styles.content__text__bottomIcon} />
             </div>
             <span className={styles.text__blue}>Наша компания</span> – лидер по мировым практикам,
-            если вы энергичны, хотите развиваться и считаете себя лидером, мы ждем Вас! Вы готовы
-            прибыть
+            если вы энергичны, хотите развиваться и считаете себя лидером, мы ждем Вас!
           </div>
         </div>
       </div>

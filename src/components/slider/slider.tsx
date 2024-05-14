@@ -112,19 +112,6 @@ const Slider = () => {
                     <span className={styles.text}>- Длительность 48 часов далее стопкодинг</span>
                   </div>
                 </div>
-                <div className={styles.block__text}>
-                  <span className={styles.text__medium}>4. Основные партнеры в ИИ:</span>
-                  <div className={styles.text__list}>
-                    <span className={styles.text}>- Сколково;</span>
-                    <span className={styles.text}>- Сбер;</span>
-                    <span className={styles.text}>- Ozon;</span>
-                    <span className={styles.text}>- Касперский;</span>
-                    <span className={styles.text}>- ВТБ;</span>
-                    <span className={styles.text}>- ТГУ;</span>
-                    <span className={styles.text}>- РСВ;</span>
-                    <span className={styles.text}>- Цифровой прорыв;</span>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -177,10 +164,8 @@ const Slider = () => {
               <div className={cn(styles.card__block, styles.card__block__medicine)}>
                 <div className={styles.block__text}>
                   <div className={styles.text__list}>
-                    <span className={styles.text}>- Мастер классы;</span>
+                    <span className={styles.text}>- Мастер класс;</span>
                     <span className={styles.text}>- Лекции;</span>
-                    <span className={styles.text}>- Хакатон;</span>
-                    <span className={styles.text}>- Основной партнёр Сколково;</span>
                   </div>
                 </div>
               </div>
@@ -194,10 +179,31 @@ const Slider = () => {
               <div className={cn(styles.card__block, styles.card__block__medicine)}>
                 <div className={styles.block__text}>
                   <div className={styles.text__list}>
-                    <span className={styles.text}>- Выставка современных БПЛА;</span>
-                    <span className={styles.text}>- Выставка морских БПЛА;</span>
-                    <span className={styles.text}>- Выставка школьных БПЛА.</span>
+                    <span className={styles.text}>- Мастер класс;</span>
+                    <span className={styles.text}>- Лекции;</span>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.card}>
+            <div className={styles.card__titleWrapper}>
+              <h2 className={cn(styles.card__title, styles.card__title__small)}>ДЕНЬ КОСМОСА</h2>
+            </div>
+            <div className={styles.card__blockWrapper}>
+              <div className={cn(styles.card__block, styles.card__block__medicine)}>
+                <div className={styles.block__text}>
+                  <span className={styles.text__medium}>1. Выставка:</span>
+                  <div className={styles.text__list}>
+                    <span className={styles.text}>- Спутники;</span>
+                    <span className={styles.text}>- Радиоприёмники;</span>
+                    <span className={styles.text}>- Зонды.</span>
+                  </div>
+                </div>
+                <div className={styles.block__text}>
+                  <span className={styles.text__medium}>2. Лекции.</span>
                 </div>
               </div>
             </div>
