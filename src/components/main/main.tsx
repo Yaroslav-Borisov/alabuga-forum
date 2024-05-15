@@ -7,6 +7,9 @@ import postscribe from 'postscribe';
 import Slider from '../slider/slider';
 import DashedLine from '../icons/DashedLine';
 import LogoIcon from '../icons/Logo';
+import PersonIcon from '../icons/Person';
+import RobotIcon from '../icons/Robot';
+import DronIcon from '../icons/Dron';
 
 const Main = () => {
   useEffect(() => {
@@ -37,21 +40,16 @@ const Main = () => {
           </a>
         </div>
       </div>
-      <div className={styles.content}>
-        <span className={styles.content__desc}>
-          БОЛЕЕ <span style={{ color: '#00ADEF' }}>2.000.000</span> РУБЛЕЙ РАСПРЕДЕЛЕННЫЕ КАЖДОМУ
-          ПОБЕДИТЕЛЮ!
-        </span>
-        <span className={styles.content__desc__grey}>Проектно-образовательный интенсив.</span>
-        <span className={styles.content__desc__grey}>
-          Нетворкинг, обучение, выявление талантов, новые идеи!
-        </span>
-      </div>
       <div className={styles.program} id="about">
+        <PersonIcon className={styles.programIcon} />
         <h2 className={styles.program__title}>О программе</h2>
-        <Slider />
+        <div className={styles.slider__wrapper}>
+          <Slider />
+        </div>
       </div>
       <div className={styles.terms} id="terms">
+        <RobotIcon className={styles.terms__robotIcon} />
+        <DronIcon className={styles.terms__dronIcon} />
         <h2 className={styles.terms__title}>Условия участия в программе</h2>
         <div className={styles.terms__content}>
           <DashedLine className={styles.content__line} />
