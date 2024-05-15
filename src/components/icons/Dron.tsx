@@ -69,6 +69,10 @@ const DronIcon = ({ className }: { className: string }) => {
         />
       </g>
       <path
+        d="M80 27.3869V19.4109C80 17.2599 78.3764 15.4584 76.2372 15.2155C73.2625 14.8777 69.0493 14.777 65.6124 16.1399C63.9177 16.8095 62.8806 18.528 63.011 20.3471L63.568 28.1453C63.7043 30.0593 65.1206 31.6474 67.0109 31.9911C69.4996 32.4474 73.1677 32.6785 77.0668 31.4104C78.8089 30.8416 80 29.2179 80 27.3869Z"
+        fill="url(#paint4_linear_82_1333)"
+      />
+      <path
         d="M76.5995 15.4439L77.19 10.7074C77.3992 9.07733 76.5011 7.5026 74.9818 6.88133C73.3825 6.2293 71.0881 5.94022 68.3385 7.42881C67.2989 7.99473 66.6592 9.08966 66.6592 10.2707V16.3912C69.4826 18.4457 72.4659 18.8086 75.64 16.9386C76.1751 16.6187 76.5257 16.059 76.5995 15.4439Z"
         fill="#7D97F4"
       />
@@ -81,7 +85,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask4_82_1333)">
         <path
           d="M53.5039 20.4917C40.0076 20.4917 12.8801 19.2898 12.3712 17.7752C11.016 13.6975 49.1625 9.0925 55.4231 9.0925C55.5642 9.0925 55.6807 9.09247 55.7849 9.09861C55.7849 9.09861 62.5545 9.15995 66.6568 10.2269C68.6374 10.742 69.9986 11.4901 69.6798 12.5754C69.6798 12.5754 68.4227 14.2862 66.6568 16.1012C64.9214 17.8856 62.6833 19.7681 60.6536 20.2158C59.7829 20.4059 57.1339 20.4917 53.5039 20.4917Z"
-          fill="url(#paint4_linear_82_1333)"
+          fill="url(#paint5_linear_82_1333)"
         />
       </g>
       <mask id="mask5_82_1333" maskUnits="userSpaceOnUse" x="224" y="12" width="53" height="14">
@@ -93,7 +97,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask5_82_1333)">
         <path
           d="M275.665 25.4883L275.597 25.4821C275.286 25.4455 244.537 21.5393 235.307 20.0783C225.758 18.5745 224.157 13.0729 224.096 12.8406C224.016 12.5716 224.175 12.2965 224.444 12.2232C224.713 12.1498 224.988 12.3027 225.062 12.5716C225.08 12.6389 226.614 17.6881 235.466 19.088C244.684 20.5429 275.414 24.4491 275.726 24.4857C276.001 24.5224 276.19 24.7731 276.16 25.0481C276.129 25.3049 275.909 25.4883 275.665 25.4883Z"
-          fill="url(#paint5_linear_82_1333)"
+          fill="url(#paint6_linear_82_1333)"
         />
       </g>
       <mask id="mask6_82_1333" maskUnits="userSpaceOnUse" x="216" y="8" width="10" height="3">
@@ -118,7 +122,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask7_82_1333)">
         <path
           d="M53.3589 18.9202C43.3801 18.9202 17.2469 16.9819 16.0301 16.8902C15.755 16.8718 15.5409 16.6272 15.5654 16.3521C15.5837 16.0708 15.8284 15.863 16.1035 15.8874C16.4337 15.9119 49.0544 18.3332 55.817 17.8501C62.4206 17.3793 67.2204 12.1759 67.2693 12.1209C67.4589 11.913 67.7769 11.9007 67.9848 12.0903C68.1865 12.2737 68.2049 12.5917 68.0153 12.7996C67.8074 13.0258 62.8852 18.3577 55.8903 18.8529C55.2483 18.9018 54.3923 18.9202 53.3589 18.9202Z"
-          fill="url(#paint6_linear_82_1333)"
+          fill="url(#paint7_linear_82_1333)"
         />
       </g>
       <path
@@ -138,7 +142,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask8_82_1333)">
         <path
           d="M59.0837 44.9121C59.0837 44.9121 52.8387 40.1806 47.7258 38.9947C42.6188 37.8089 1.73958 36.2297 0.03528 38.2022C-1.66306 40.1806 58.5176 49.6496 59.0837 44.9121Z"
-          fill="url(#paint7_linear_82_1333)"
+          fill="url(#paint8_linear_82_1333)"
         />
       </g>
       <mask id="mask9_82_1333" maskUnits="userSpaceOnUse" x="50" y="48" width="21" height="21">
@@ -150,7 +154,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask9_82_1333)">
         <path
           d="M70.9123 62.8327V53.3454C70.9123 50.7821 68.9854 48.643 66.4339 48.3543C62.8924 47.9477 57.8776 47.8298 53.7881 49.4503C51.7787 50.2517 50.5412 52.2965 50.6944 54.4532L51.3544 63.7342C51.5194 66.0206 53.2047 67.9063 55.4558 68.3188C58.4198 68.8609 62.7804 69.1379 67.4238 67.6234C69.4981 66.9458 70.9123 65.0189 70.9123 62.8327Z"
-          fill="url(#paint8_linear_82_1333)"
+          fill="url(#paint9_linear_82_1333)"
         />
       </g>
       <path
@@ -166,7 +170,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask10_82_1333)">
         <path
           d="M62.5187 46.4298C62.5187 46.4298 67.9633 54.3983 72.6674 55.5891C77.3714 56.7859 127.724 56.7503 128.535 54.5523C130.295 49.789 84.4037 42.8692 78.6925 42.9285C78.6925 42.9285 61.5175 42.5434 62.5187 46.4298Z"
-          fill="url(#paint9_linear_82_1333)"
+          fill="url(#paint10_linear_82_1333)"
         />
       </g>
       <mask id="mask11_82_1333" maskUnits="userSpaceOnUse" x="234" y="28" width="54" height="19">
@@ -178,7 +182,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask11_82_1333)">
         <path
           d="M234.645 46.4082V43.7393C234.645 43.2512 234.552 42.7816 234.379 42.343C236.245 40.7428 238.586 38.9944 240.823 38.0368C245.234 36.1463 279.059 28.6769 286.337 28.6769C287.017 28.6769 287.462 28.7449 287.635 28.8808C289.358 30.2832 247.866 44.9131 234.645 46.4082Z"
-          fill="url(#paint10_linear_82_1333)"
+          fill="url(#paint11_linear_82_1333)"
         />
       </g>
       <mask id="mask12_82_1333" maskUnits="userSpaceOnUse" x="218" y="48" width="21" height="21">
@@ -190,7 +194,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask12_82_1333)">
         <path
           d="M218.745 62.8327V53.3454C218.745 50.7821 220.672 48.643 223.224 48.3543C226.765 47.9477 231.78 47.8298 235.863 49.4503C237.879 50.2517 239.116 52.2965 238.963 54.4532L238.297 63.7342C238.138 66.0206 236.453 67.9063 234.202 68.3188C231.238 68.8609 226.871 69.1379 222.234 67.6234C220.159 66.9458 218.745 65.0189 218.745 62.8327Z"
-          fill="url(#paint11_linear_82_1333)"
+          fill="url(#paint12_linear_82_1333)"
         />
       </g>
       <path
@@ -206,7 +210,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask13_82_1333)">
         <path
           d="M226.035 47.7378C226.035 47.7378 222.065 56.5333 217.647 58.5358C213.222 60.5382 163.645 69.3455 162.464 67.3253C159.894 62.9424 203.86 48.0686 209.489 47.1294C209.489 47.1294 226.33 43.7329 226.035 47.7378Z"
-          fill="url(#paint12_linear_82_1333)"
+          fill="url(#paint13_linear_82_1333)"
         />
       </g>
       <path
@@ -222,7 +226,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask14_82_1333)">
         <path
           d="M167.432 66.4988L167.267 65.5087C167.267 65.5087 202.142 59.6156 210.982 58.1424C219.421 56.7339 222.703 48.3539 222.727 48.2714L223.186 48.3892L223.587 48.0121C223.805 48.2419 223.711 48.513 223.664 48.6426C223.634 48.731 220.204 57.6237 211.147 59.1324C202.307 60.6057 167.432 66.4988 167.432 66.4988Z"
-          fill="url(#paint13_linear_82_1333)"
+          fill="url(#paint14_linear_82_1333)"
         />
       </g>
       <mask id="mask15_82_1333" maskUnits="userSpaceOnUse" x="236" y="29" width="49" height="17">
@@ -234,7 +238,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask15_82_1333)">
         <path
           d="M236.609 45.3818C236.388 45.3818 236.178 45.2341 236.123 45.0001C236.055 44.7353 236.215 44.4583 236.486 44.3905C236.825 44.3105 269.994 35.9797 283.54 29.2067C283.786 29.0836 284.088 29.1822 284.211 29.4284C284.34 29.6747 284.236 29.9764 283.989 30.1057C270.345 36.928 237.065 45.2833 236.732 45.3695C236.689 45.3757 236.646 45.3818 236.609 45.3818Z"
-          fill="url(#paint14_linear_82_1333)"
+          fill="url(#paint15_linear_82_1333)"
         />
       </g>
       <mask id="mask16_82_1333" maskUnits="userSpaceOnUse" x="65" y="45" width="60" height="10">
@@ -246,7 +250,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask16_82_1333)">
         <path
           d="M124.128 54.7148H124.117C123.791 54.7089 91.059 54.2125 79.3879 53.2375C67.4035 52.2388 65.282 46.2762 65.1993 46.0221C65.1106 45.7561 65.2525 45.4724 65.5125 45.3838C65.7784 45.2952 66.062 45.437 66.1507 45.7029C66.1743 45.7738 68.2249 51.2992 79.4706 52.2388C91.1063 53.2079 123.803 53.7043 124.134 53.7102C124.412 53.7161 124.631 53.9407 124.631 54.2184C124.625 54.4962 124.4 54.7148 124.128 54.7148Z"
-          fill="url(#paint15_linear_82_1333)"
+          fill="url(#paint16_linear_82_1333)"
         />
       </g>
       <path
@@ -274,7 +278,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask17_82_1333)">
         <path
           d="M156.3 82.5368C156.3 88.2297 151.681 92.8484 145.988 92.8484C140.29 92.8484 135.671 88.2297 135.671 82.5368C135.671 76.8382 140.29 72.2195 145.988 72.2195C151.681 72.2195 156.3 76.8382 156.3 82.5368Z"
-          fill="url(#paint16_linear_82_1333)"
+          fill="url(#paint17_linear_82_1333)"
         />
       </g>
       <path
@@ -290,7 +294,7 @@ const DronIcon = ({ className }: { className: string }) => {
       <g mask="url(#mask18_82_1333)">
         <path
           d="M153.845 82.7864C153.845 86.9897 150.432 90.397 146.229 90.397C142.025 90.397 138.618 86.9897 138.618 82.7864C138.618 78.5774 142.025 75.1702 146.229 75.1702C150.432 75.1702 153.845 78.5774 153.845 82.7864Z"
-          fill="url(#paint17_linear_82_1333)"
+          fill="url(#paint18_linear_82_1333)"
         />
       </g>
       <defs>
@@ -340,6 +344,17 @@ const DronIcon = ({ className }: { className: string }) => {
         </linearGradient>
         <linearGradient
           id="paint4_linear_82_1333"
+          x1="951.997"
+          y1="-1017.74"
+          x2="886.165"
+          y2="-962.55"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#09005D" />
+          <stop offset="1" stopColor="#1A0F91" />
+        </linearGradient>
+        <linearGradient
+          id="paint5_linear_82_1333"
           x1="996.146"
           y1="-1192.24"
           x2="1287.21"
@@ -350,7 +365,7 @@ const DronIcon = ({ className }: { className: string }) => {
           <stop offset="1" stopColor="#4042E2" />
         </linearGradient>
         <linearGradient
-          id="paint5_linear_82_1333"
+          id="paint6_linear_82_1333"
           x1="1141.15"
           y1="-943.273"
           x2="1243.88"
@@ -361,7 +376,7 @@ const DronIcon = ({ className }: { className: string }) => {
           <stop offset="1" stopColor="#E9EFFD" />
         </linearGradient>
         <linearGradient
-          id="paint6_linear_82_1333"
+          id="paint7_linear_82_1333"
           x1="730.317"
           y1="-950.475"
           x2="834.036"
@@ -372,7 +387,7 @@ const DronIcon = ({ className }: { className: string }) => {
           <stop offset="1" stopColor="#E9EFFD" />
         </linearGradient>
         <linearGradient
-          id="paint7_linear_82_1333"
+          id="paint8_linear_82_1333"
           x1="961.061"
           y1="-1118.32"
           x2="1243.93"
@@ -383,7 +398,7 @@ const DronIcon = ({ className }: { className: string }) => {
           <stop offset="1" stopColor="#4042E2" />
         </linearGradient>
         <linearGradient
-          id="paint8_linear_82_1333"
+          id="paint9_linear_82_1333"
           x1="880.726"
           y1="-940.019"
           x2="825.841"
@@ -394,7 +409,7 @@ const DronIcon = ({ className }: { className: string }) => {
           <stop offset="1" stopColor="#1A0F91" />
         </linearGradient>
         <linearGradient
-          id="paint9_linear_82_1333"
+          id="paint10_linear_82_1333"
           x1="1029.13"
           y1="-1036.08"
           x2="1310.35"
@@ -405,7 +420,7 @@ const DronIcon = ({ className }: { className: string }) => {
           <stop offset="1" stopColor="#4042E2" />
         </linearGradient>
         <linearGradient
-          id="paint10_linear_82_1333"
+          id="paint11_linear_82_1333"
           x1="1272.05"
           y1="-972.711"
           x2="1565.31"
@@ -416,7 +431,7 @@ const DronIcon = ({ className }: { className: string }) => {
           <stop offset="1" stopColor="#4042E2" />
         </linearGradient>
         <linearGradient
-          id="paint11_linear_82_1333"
+          id="paint12_linear_82_1333"
           x1="1138.3"
           y1="-910.467"
           x2="1108.54"
@@ -427,7 +442,7 @@ const DronIcon = ({ className }: { className: string }) => {
           <stop offset="1" stopColor="#1A0F91" />
         </linearGradient>
         <linearGradient
-          id="paint12_linear_82_1333"
+          id="paint13_linear_82_1333"
           x1="1135.83"
           y1="-929.56"
           x2="1416.22"
@@ -438,7 +453,7 @@ const DronIcon = ({ className }: { className: string }) => {
           <stop offset="1" stopColor="#4042E2" />
         </linearGradient>
         <linearGradient
-          id="paint13_linear_82_1333"
+          id="paint14_linear_82_1333"
           x1="966.249"
           y1="-800.061"
           x2="1073.59"
@@ -449,7 +464,7 @@ const DronIcon = ({ className }: { className: string }) => {
           <stop offset="1" stopColor="#E9EFFD" />
         </linearGradient>
         <linearGradient
-          id="paint14_linear_82_1333"
+          id="paint15_linear_82_1333"
           x1="1178.54"
           y1="-920.825"
           x2="1274.2"
@@ -460,7 +475,7 @@ const DronIcon = ({ className }: { className: string }) => {
           <stop offset="1" stopColor="#E9EFFD" />
         </linearGradient>
         <linearGradient
-          id="paint15_linear_82_1333"
+          id="paint16_linear_82_1333"
           x1="776.284"
           y1="-818.834"
           x2="889.635"
@@ -471,7 +486,7 @@ const DronIcon = ({ className }: { className: string }) => {
           <stop offset="1" stopColor="#E9EFFD" />
         </linearGradient>
         <linearGradient
-          id="paint16_linear_82_1333"
+          id="paint17_linear_82_1333"
           x1="865.218"
           y1="-707.627"
           x2="903.451"
@@ -482,7 +497,7 @@ const DronIcon = ({ className }: { className: string }) => {
           <stop offset="1" stopColor="#4042E2" />
         </linearGradient>
         <linearGradient
-          id="paint17_linear_82_1333"
+          id="paint18_linear_82_1333"
           x1="995.674"
           y1="-852.496"
           x2="947.478"
