@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    padding: 32px 123px;
+    gap: 30px;
+    padding: 32px;
     background-color: #ffffff;
 }
 
@@ -33,6 +33,18 @@
     flex-direction: column;
     gap: 24px;
     max-width: 425px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 200px;
+}
+
+.contacts a {
+    color: #515151;
+    text-decoration: none;
 }
 
 .about__title {
