@@ -1,11 +1,12 @@
-import styles from './slider.module.css';
+import styles from './sliderSmall.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css/pagination';
 import cn from 'classnames';
+import ArrowIcon from '../icons/Arrow';
 
-const Slider = () => {
+const SliderSmall = () => {
   return (
     <div className={styles.slider}>
       <Swiper
@@ -32,8 +33,20 @@ const Slider = () => {
                   <span className={styles.text__medium}>Лучший получает</span>
                   <span className={styles.text__big}>300 тысяч рублей!</span>
                 </div>
+                <div className={styles.arrowIcon__wrapper}>
+                  <ArrowIcon className={styles.arrowIcon} />
+                </div>
               </div>
-              <div className={cn(styles.card__block, styles.card__block__withBorder)}>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.card}>
+            <div className={styles.card__titleWrapper}>
+              <h2 className={styles.card__title}>АКСЕЛЕРАТОР</h2>
+            </div>
+            <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__aks)}>
+              <div className={cn(styles.card__block)}>
                 <h3 className={styles.block__title}>2 ВАРИАНТ</h3>
                 <div className={styles.block__text}>
                   <span className={cn(styles.text, styles.text__margin)}>
@@ -59,6 +72,15 @@ const Slider = () => {
                   <span className={styles.text__big}>300 тысяч рублей!</span>
                 </div>
               </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.card}>
+            <div className={styles.card__titleWrapper}>
+              <h2 className={styles.card__title}>АКСЕЛЕРАТОР</h2>
+            </div>
+            <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__aks)}>
               <div className={styles.card__block}>
                 <h3 className={styles.block__title}>3 ВАРИАНТ</h3>
                 <div className={styles.block__text}>
@@ -82,7 +104,7 @@ const Slider = () => {
         <SwiperSlide>
           <div className={styles.card}>
             <div className={styles.card__titleWrapper}>
-              <h2 className={cn(styles.card__title, styles.card__title__small)}>
+              <h2 className={styles.card__title__small}>
                 ДЕНЬ
                 <br />
                 РОБОТОТЕХНИКИ И СТРОИТЕЛЕЙ
@@ -95,51 +117,26 @@ const Slider = () => {
                     <span className={cn(styles.text__medium, styles.text__medium__robot)}>
                       Мастер классы
                     </span>
-                    <span
-                      className={cn(
-                        styles.text__medium,
-                        styles.text__medium__robot,
-                        styles.text__medium__bordered
-                      )}
-                    >
+                    <span className={cn(styles.text__medium, styles.text__medium__robot)}>
                       Лекции
                     </span>
                     <span className={cn(styles.text__medium, styles.text__medium__robot)}>
                       Выставка робототехники
                     </span>
-                  </div>
-                  <div className={cn(styles.text__list, styles.text__list__bordered)}>
                     <span className={cn(styles.text__medium, styles.text__medium__robot)}>
                       Экскурсия на ОПП
                     </span>
-                    <span
-                      className={cn(
-                        styles.text__medium,
-                        styles.text__medium__robot,
-                        styles.text__medium__bordered
-                      )}
-                    >
+                    <span className={cn(styles.text__medium, styles.text__medium__robot)}>
                       Турниры
                     </span>
                     <span className={cn(styles.text__medium, styles.text__medium__robot)}>
                       Галограммы
                     </span>
-                  </div>
-                  <div className={cn(styles.text__list, styles.text__list__bordered)}>
                     <span className={cn(styles.text__medium, styles.text__medium__robot)}>
                       Bim - модели и моделирование
                     </span>
-                    <span
-                      className={cn(
-                        styles.text__medium,
-                        styles.text__medium__robot,
-                        styles.text__medium__bordered
-                      )}
-                    >
-                      Экскурсия
-                    </span>
                     <span className={cn(styles.text__medium, styles.text__medium__robot)}>
-                      Стройки
+                      Экскурсия на стройки
                     </span>
                   </div>
                 </div>
@@ -155,35 +152,12 @@ const Slider = () => {
             <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__aks)}>
               <div className={styles.card__block}>
                 <h3 className={styles.block__title}>МАСТЕР КЛАССЫ</h3>
-                <div className={styles.text__wrapper}>
+                <div className={styles.block__text}>
                   <div className={styles.text__list}>
                     <span className={styles.text__medium}>ИИ в изучении местности;</span>
                     <span className={styles.text__medium}>ИИ в транспорте;</span>
                     <span className={styles.text__medium}>ИИ в медицине;</span>
                   </div>
-                </div>
-              </div>
-              <div className={cn(styles.card__block, styles.card__block__withBorder)}>
-                <h3 className={styles.block__title}>ЛЕКЦИИ</h3>
-                <div className={styles.text__wrapper}>
-                  <div className={styles.text__list}>
-                    <span className={cn(styles.text__medium, styles.text__margin)}>
-                      Как ИИ изменил мир вокруг нас?
-                    </span>
-                    <span className={styles.text__medium}>
-                      Как компании могут внедрить ИИ в свою работу?
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className={styles.card__block}>
-                <h3 className={styles.block__title}>ХАКАТОН</h3>
-                <div className={styles.block__text}>
-                  <span className={styles.text__medium}>Школьный трек</span>
-                </div>
-                <div className={styles.text__wrapper}>
-                  <span className={styles.text__medium}>3 трека с призовым фондом</span>
-                  <span className={styles.text__big}>300 тысяч рублей!</span>
                 </div>
               </div>
             </div>
@@ -192,7 +166,50 @@ const Slider = () => {
         <SwiperSlide>
           <div className={styles.card}>
             <div className={styles.card__titleWrapper}>
-              <h2 className={cn(styles.card__title, styles.card__title__small)}>
+              <h2 className={styles.card__title}>ДЕНЬ ИИ</h2>
+            </div>
+            <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__aks)}>
+              <div className={styles.card__block}>
+                <h3 className={styles.block__title}>ЛЕКЦИИ</h3>
+                <div className={styles.block__text}>
+                  <div className={styles.text__list}>
+                    <span className={styles.text__medium}>Как ИИ изменил мир вокруг нас?</span>
+                    <span className={styles.text__medium}>
+                      Как компании могут внедрить ИИ в свою работу?
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.card}>
+            <div className={styles.card__titleWrapper}>
+              <h2 className={styles.card__title}>ДЕНЬ ИИ</h2>
+            </div>
+            <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__aks)}>
+              <div className={styles.card__block}>
+                <h3 className={styles.block__title}>ХАКАТОН</h3>
+                <div className={styles.block__text}>
+                  <div className={styles.text__list}>
+                    <span className={cn(styles.text__medium, styles.text__mediumWithMargin)}>
+                      Школьные треки
+                    </span>
+                  </div>
+                  <div className={styles.text__wrapper}>
+                    <span className={styles.text__medium}>3 трека с призовым фондом</span>
+                    <span className={styles.text__big}>300 тысяч рублей!</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.card}>
+            <div className={styles.card__titleWrapper}>
+              <h2 className={styles.card__title__small}>
                 ДЕНЬ
                 <br />
                 ХИМИИ И МЕДИЦИНЫ
@@ -205,30 +222,16 @@ const Slider = () => {
                     <span className={cn(styles.text__medium, styles.text__medium__robot)}>
                       Мастер классы
                     </span>
-                    <span
-                      className={cn(
-                        styles.text__medium,
-                        styles.text__medium__robot,
-                        styles.text__medium__bordered
-                      )}
-                    >
+                    <span className={cn(styles.text__medium, styles.text__medium__robot)}>
                       Лекции
                     </span>
                     <span className={cn(styles.text__medium, styles.text__medium__robot)}>
                       Хакатон
                     </span>
-                  </div>
-                  <div className={cn(styles.text__list, styles.text__list__bordered)}>
                     <span className={cn(styles.text__medium, styles.text__medium__robot)}>
                       Тренинг
                     </span>
-                    <span
-                      className={cn(
-                        styles.text__medium,
-                        styles.text__medium__robot,
-                        styles.text__medium__bordered
-                      )}
-                    >
+                    <span className={cn(styles.text__medium, styles.text__medium__robot)}>
                       Экскурсии в Мед-блок
                     </span>
                     <span className={cn(styles.text__medium, styles.text__medium__robot)}>
@@ -243,12 +246,15 @@ const Slider = () => {
         <SwiperSlide>
           <div className={styles.card}>
             <div className={styles.card__titleWrapper}>
-              <h2 className={styles.card__title}>ДЕНЬ КОСМОСА И БПЛА</h2>
+              <h2 className={styles.card__title__small}>
+                ДЕНЬ КОСМОСА
+                <br />И БПЛА
+              </h2>
             </div>
-            <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__space)}>
-              <div className={cn(styles.card__block, styles.card__block__withRightBorder)}>
+            <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__aks)}>
+              <div className={styles.card__block}>
                 <h3 className={styles.block__title}>ВЫСТАВКИ И ЛЕКЦИИ</h3>
-                <div className={styles.text__wrapper}>
+                <div className={styles.block__text}>
                   <div className={styles.text__list}>
                     <span className={styles.text__medium}>Выставка современных БПЛА</span>
                     <span className={styles.text__medium}>Выставка морских БПЛА</span>
@@ -259,9 +265,21 @@ const Slider = () => {
                   </div>
                 </div>
               </div>
-              <div className={cn(styles.card__block)}>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.card}>
+            <div className={styles.card__titleWrapper}>
+              <h2 className={styles.card__title__small}>
+                ДЕНЬ КОСМОСА
+                <br />И БПЛА
+              </h2>
+            </div>
+            <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__aks)}>
+              <div className={styles.card__block}>
                 <h3 className={styles.block__title}>ИГРЫ И ШОУ</h3>
-                <div className={styles.text__wrapper}>
+                <div className={styles.block__text}>
                   <div className={styles.text__list}>
                     <span className={styles.text__medium}>Шоу дронов</span>
                     <span className={styles.text__medium}>Пейнтбол</span>
@@ -278,4 +296,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default SliderSmall;

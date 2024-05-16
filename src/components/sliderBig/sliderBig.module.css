@@ -1,0 +1,248 @@
+.nonSlide {
+    display: none;
+
+    @media (min-width: 1200px) {
+        display: block;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.card__titleWrapper {
+    align-self: center;
+    margin-bottom: 32px;
+}
+
+.card__title {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
+    color: #3B66BA;
+}
+
+.card__title__small {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
+    color: #3B66BA;
+}
+
+.card__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
+    color: #515151;
+}
+
+.card__blockWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.card__blockWrapper__aks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 48px;
+    max-width: 1350px;
+}
+
+.card__blockWrapper__space {
+    display: flex;
+    gap: 36px;
+    max-width: 1350px;
+}
+
+.card__blockWrapper__robot {}
+
+.card__block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 419px;
+    padding: 24px;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.card__blockWrapper__robot .card__block {
+    display: flex;
+    gap: 20px;
+    padding: 24px;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.card__block__robot {
+    max-width: none;
+}
+
+.card__block__withBorder {
+    position: relative;
+}
+
+.card__block__withBorder::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -24px;
+    width: 6px;
+    height: 100%;
+    background-color: #00ADEF;
+    border-radius: 5px;
+}
+
+.card__block__withBorder::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -24px;
+    width: 6px;
+    height: 100%;
+    background-color: #00ADEF;
+    border-radius: 5px;
+}
+
+.card__block__withRightBorder {
+    position: relative;
+}
+
+.card__block__withRightBorder::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -24px;
+    width: 6px;
+    height: 100%;
+    background-color: #00ADEF;
+    border-radius: 5px;
+}
+
+.card__block__ii {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 24px;
+    min-width: 419px;
+    max-width: 600px;
+}
+
+.card__block__medicine {
+    min-width: 419px;
+    max-width: 500px;
+}
+
+.block__title {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #00ADEF;
+    font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
+
+}
+
+.block__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 16px;
+    font-family: PT-Sans, Arial, Helvetica, sans-serif;
+}
+
+.text__margin {
+    margin-bottom: 16px;
+}
+
+.text__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.text__list__bordered {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    max-width: 1000px;
+}
+
+.text__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.text__medium {
+    font-size: 20px;
+}
+
+.text__medium__robot {
+    font-size: 32px;
+}
+
+.text__medium__bordered {
+    position: relative;
+}
+
+.text__medium__bordered::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -24px;
+    width: 6px;
+    height: 100%;
+    background-color: #00ADEF;
+    border-radius: 5px;
+}
+
+.text__medium__bordered::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -24px;
+    width: 6px;
+    height: 100%;
+    background-color: #00ADEF;
+    border-radius: 5px;
+}
+
+.text__big {
+    font-size: 32px;
+    font-weight: 700;
+    color: #3B66BA;
+}
+
+.card__block__robot .text__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.card__blockWrapper__space .card__block {
+    max-width: none;
+}

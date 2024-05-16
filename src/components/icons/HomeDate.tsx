@@ -1,4 +1,4 @@
-const HomeDateIcon = () => {
+const HomeDateIcon = ({ className }: { className: string }) => {
   return (
     <svg
       width="666"
@@ -6,6 +6,7 @@ const HomeDateIcon = () => {
       viewBox="0 0 666 68"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <path
         d="M354.448 66.7197C355.977 66.7509 355.426 67.1558 355.664 67.2388C352.994 67.0312 354.548 66.5952 354.448 66.7197Z"

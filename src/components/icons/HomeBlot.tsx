@@ -1,4 +1,4 @@
-const HomeBlotIcon = () => {
+const HomeBlotIcon = ({ className }: { className: string }) => {
   return (
     <svg
       width="1001"
@@ -6,6 +6,7 @@ const HomeBlotIcon = () => {
       viewBox="0 0 1001 530"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <g filter="url(#filter0_d_7_349)">
         <path

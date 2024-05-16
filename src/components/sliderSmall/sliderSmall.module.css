@@ -1,8 +1,16 @@
+.arrowIcon__wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    opacity: 20%;
+}
+
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 64px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .card__titleWrapper {
@@ -12,10 +20,9 @@
 
 .card__title {
     margin: 0;
-    margin-bottom: 20px;
     padding: 0;
     text-align: center;
-    font-size: 64px;
+    font-size: 38px;
     font-weight: 700;
     font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
     color: #3B66BA;
@@ -23,10 +30,9 @@
 
 .card__title__small {
     margin: 0;
-    margin-bottom: 20px;
     padding: 0;
     text-align: center;
-    font-size: 60px;
+    font-size: 32px;
     font-weight: 700;
     font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
     color: #3B66BA;
@@ -48,7 +54,7 @@
 
 .card__blockWrapper__aks {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 48px;
     max-width: 1350px;
 }
@@ -66,7 +72,6 @@
     flex-direction: column;
     gap: 20px;
     max-width: 419px;
-    padding: 24px;
     color: #000000;
     background-color: #ffffff;
     font-size: 16px;
@@ -163,7 +168,7 @@
 }
 
 .text {
-    font-size: 16px;
+    font-size: 20px;
     font-family: PT-Sans, Arial, Helvetica, sans-serif;
 }
 
@@ -178,9 +183,8 @@
 
 .text__list__bordered {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-    max-width: 1000px;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .text__wrapper {
@@ -193,7 +197,24 @@
 }
 
 .text__medium__robot {
-    font-size: 32px;
+    position: relative;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.text__medium__robot::before {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: -16px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #00ADEF;
+}
+
+.text__mediumWithMargin {
+    margin-bottom: 20px;
 }
 
 .text__medium__bordered {
@@ -223,7 +244,7 @@
 }
 
 .text__big {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     color: #3B66BA;
 }

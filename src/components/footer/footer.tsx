@@ -33,7 +33,9 @@ const Footer = () => {
             <br />
             <a href="mailto:assessment@alabuga.ru">assessment@alabuga.ru</a>
             <br />
-            <span>423601, Республика Татарстан, Территория ОЭЗ «Алабуга», ул.Ш-2, д.4/1</span>
+            <span className={styles.adress}>
+              423601, Республика Татарстан, Территория ОЭЗ «Алабуга», ул.Ш-2, д.4/1
+            </span>
           </p>
         </div>
       </div>

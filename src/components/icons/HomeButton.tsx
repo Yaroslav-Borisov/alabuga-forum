@@ -1,4 +1,4 @@
-const HomeButtonIcon = () => {
+const HomeButtonIcon = ({ className }: { className: string }) => {
   return (
     <svg
       width="712"
@@ -6,6 +6,7 @@ const HomeButtonIcon = () => {
       viewBox="0 0 712 124"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <rect x="0.0644531" y="0.819885" width="711.811" height="122.361" rx="61.1804" fill="white" />
       <path

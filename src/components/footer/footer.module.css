@@ -13,6 +13,18 @@
     gap: 23px;
 }
 
+.logoWrapper a {
+    text-decoration: none;
+}
+
+.logo {
+    display: none;
+
+    @media (min-width: 1024px) {
+        display: block;
+    }
+}
+
 .logo__text {
     color: #515151;
     font-size: 20px;
@@ -29,10 +41,14 @@
 }
 
 .about {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    max-width: 425px;
+    display: none;
+
+    @media (min-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        max-width: 425px;
+    }
 }
 
 .contacts {
@@ -55,6 +71,14 @@
     font-family: PT-Sans, "Arial", "Helvetica", sans-serif;
 }
 
+.contacts .about__title {
+    display: none;
+
+    @media (min-width: 768px) {
+        display: block;
+    }
+}
+
 .about__text {
     margin: 0;
     padding: 0;
@@ -64,14 +88,27 @@
     line-height: 180%;
 }
 
+.adress {
+    display: none;
+
+    @media (min-width: 1024px) {
+        display: block;
+    }
+}
+
 .footer__button {
-    align-self: flex-start;
-    padding: 12px 24px;
-    font-size: 16px;
-    font-family: PT-Sans, "Arial", "Helvetica", sans-serif;
-    color: #ffffff;
-    background-color: #00ADEF;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+    display: none;
+
+    @media (min-width: 768px) {
+        display: block;
+        align-self: flex-start;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-family: PT-Sans, "Arial", "Helvetica", sans-serif;
+        color: #ffffff;
+        background-color: #00ADEF;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
 }

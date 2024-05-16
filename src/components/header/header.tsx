@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <LogoAlabugaIcon />
+        <LogoAlabugaIcon className={styles.logo__icon} />
       </div>
       <nav className={styles.navigation}>
         <a className={styles.navigation__link} href="#about">
