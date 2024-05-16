@@ -179,7 +179,7 @@ const Slider = () => {
               <div className={styles.card__block}>
                 <h3 className={styles.block__title}>ХАКАТОН</h3>
                 <div className={styles.block__text}>
-                  <span className={styles.text__medium}>Школьный и студенческий трек</span>
+                  <span className={styles.text__medium}>Школьный трек</span>
                 </div>
                 <div className={styles.text__wrapper}>
                   <span className={styles.text__medium}>3 трека с призовым фондом</span>

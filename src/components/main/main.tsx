@@ -55,7 +55,7 @@ const Main = () => {
           <DashedLine className={styles.content__line} />
           <div className={styles.content__text__right}>
             <div className={styles.content__text__rightIconWrapper}>
-              <span>Вам должно быть от 15 до 24 лет</span>
+              <span>Если вы школьник и вам от 15 до 19 лет</span>
               <LogoIcon color={'#00ADEF'} className={styles.content__text__rightIcon} />
             </div>
             Вы готовы прибыть
