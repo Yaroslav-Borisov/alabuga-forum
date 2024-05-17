@@ -35,6 +35,14 @@
     color: #00ADEF;
 }
 
+.logo__text .logo__text__blue {
+    display: none;
+
+    @media (min-width: 530px) {
+        display: block;
+    }
+}
+
 .aboutWrapper {
     display: flex;
     gap: 72px;
