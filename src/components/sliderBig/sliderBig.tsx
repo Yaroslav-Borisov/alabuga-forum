@@ -80,7 +80,7 @@ const SliderBig = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className={styles.card}>
+          {/* <div className={styles.card}>
             <div className={styles.card__titleWrapper}>
               <h2 className={cn(styles.card__title, styles.card__title__small)}>
                 ДЕНЬ
@@ -145,12 +145,43 @@ const SliderBig = () => {
                 </div>
               </div>
             </div>
+          </div> */}
+          <div className={styles.card}>
+            <div className={styles.card__titleWrapper}>
+              <h2 className={cn(styles.card__title, styles.card__title__small)}>
+                ДЕНЬ ПРОЕКТИРОВАНИЯ И СТРОИТЕЛЬСТВА
+              </h2>
+            </div>
+            <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__robot)}>
+              <div className={cn(styles.card__block, styles.card__block__robot)}>
+                <div className={styles.text__wrapper}>
+                  <div className={cn(styles.text__list, styles.text__list__borderedNew)}>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew)}>
+                      3D и голографические модели лучшей экономической зоны в Европе, крупнейшего
+                      логистического центра в России им. Дэн Сяопина
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew)}>
+                      Лекции о современных методах строительства
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew)}>
+                      Мастер-классы по BIM-проектированию
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew)}>
+                      Применение БПЛА в геодезии, проектировании, контроле строительства,
+                      картографии
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
             <div className={styles.card__titleWrapper}>
-              <h2 className={styles.card__title}>ДЕНЬ ИИ</h2>
+              <h2 className={cn(styles.card__title, styles.card__title__small)}>
+                ДЕНЬ ИСКУССТВЕННОГО ИНТЕЛЛЕКТА И КИБЕРФИЗИКИ
+              </h2>
             </div>
             <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__aks)}>
               <div className={styles.card__block}>
@@ -190,7 +221,7 @@ const SliderBig = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className={styles.card}>
+          {/* <div className={styles.card}>
             <div className={styles.card__titleWrapper}>
               <h2 className={cn(styles.card__title, styles.card__title__small)}>
                 ДЕНЬ
@@ -238,12 +269,46 @@ const SliderBig = () => {
                 </div>
               </div>
             </div>
+          </div> */}
+          <div className={styles.card}>
+            <div className={styles.card__titleWrapper}>
+              <h2 className={cn(styles.card__title, styles.card__title__small)}>
+                ДЕНЬ МЕДИЦИНСКИХ И ХИМИЧЕСКИХ ТЕХНОЛОГИЙ
+              </h2>
+            </div>
+            <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__robot)}>
+              <div className={cn(styles.card__block, styles.card__block__robot)}>
+                <div className={styles.text__wrapper}>
+                  <div className={cn(styles.text__list, styles.text__list__borderedNew)}>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew)}>
+                      Лекции о развитии малотоннажной химии, о направлениях развития химической
+                      промышленности в России
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew)}>
+                      Лекции об инновациях в медицине, а также посещение современного медицинского
+                      блока
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew)}>
+                      Обучение сердечно-легочной реанимации на пациентах-фантомах
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew)}>
+                      Обучение навыкам оказания первой медицинской помощи
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew)}>
+                      Осмотр и диагностика пациентов в VR
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
             <div className={styles.card__titleWrapper}>
-              <h2 className={styles.card__title}>ДЕНЬ КОСМОСА И БПЛА</h2>
+              <h2 className={cn(styles.card__title, styles.card__title__small)}>
+                ДЕНЬ БЕСПИЛОТНЫХ И СПУТНИКОВЫХ ТЕХНОЛОГИЙ
+              </h2>
             </div>
             <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__space)}>
               <div className={cn(styles.card__block, styles.card__block__withRightBorder)}>
@@ -253,9 +318,7 @@ const SliderBig = () => {
                     <span className={styles.text__medium}>Выставка современных БПЛА</span>
                     <span className={styles.text__medium}>Выставка морских БПЛА</span>
                     <span className={styles.text__medium}>Выставка школьных БПЛА</span>
-                    <span className={styles.text__medium}>Спутники</span>
-                    <span className={styles.text__medium}>Радиоприемники</span>
-                    <span className={styles.text__medium}>Зонды</span>
+                    <span className={styles.text__medium}>Выставка спутниковых технологий</span>
                   </div>
                 </div>
               </div>
@@ -264,9 +327,73 @@ const SliderBig = () => {
                 <div className={styles.text__wrapper}>
                   <div className={styles.text__list}>
                     <span className={styles.text__medium}>Шоу дронов</span>
-                    <span className={styles.text__medium}>Пейнтбол</span>
+                    <span className={styles.text__medium}>
+                      Лекция о будущем БПЛА и космонавтики
+                    </span>
                     <span className={styles.text__medium}>Запуск шара</span>
-                    <span className={styles.text__medium}>И многое другое</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.card}>
+            <div className={styles.card__titleWrapper}>
+              <h2 className={cn(styles.card__title, styles.card__title__small)}>
+                ДЕНЬ РОБОТОТЕХНИКИ
+              </h2>
+            </div>
+            <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__robot)}>
+              <div className={cn(styles.card__block, styles.card__block__robot)}>
+                <div className={styles.text__wrapper}>
+                  <div className={cn(styles.text__list, styles.text__list__borderedNew)}>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew)}>
+                      Выставка робототехники (манипуляторы, андроиды, сервисные роботы, станки ЧПУ,
+                      медицинская и образовательная робототехника)
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew)}>
+                      Мастер-классы и лекции по робототехнике и микроэлектронике
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew)}>
+                      Экскурсия на роботизированное опытное производство поддонов
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew)}>
+                      Бои роботов-убийц
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.card}>
+            <div className={styles.card__titleWrapper}>
+              <h2 className={cn(styles.card__title, styles.card__title__small)}>А ТАКЖЕ</h2>
+            </div>
+            <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__robot)}>
+              <div className={cn(styles.card__block, styles.card__block__robot)}>
+                <div className={styles.text__wrapper}>
+                  <div className={cn(styles.text__list, styles.text__list__borderedNew__also)}>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew__also)}>
+                      Турниры и розыгрыши
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew__also)}>
+                      Финал Alabuga Skills Junior
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew__also)}>
+                      Экскурсия по ОЭЗ «Алабуга»
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew__also)}>
+                      Экскурсия по Елабуге
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew__also)}>
+                      Тренинги по soft skills
+                    </span>
+                    <span className={cn(styles.text__medium, styles.text__medium__robotNew__also)}>
+                      Спортивные мероприятия
+                    </span>
                   </div>
                 </div>
               </div>

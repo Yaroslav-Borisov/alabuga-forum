@@ -42,15 +42,27 @@
     color: #000000;
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
     cursor: pointer;
+}
 
-    @media (min-width: 915px) {
-        font-size: 24px;
+.navigation__link:last-child {
+    margin-left: 26px;
+}
+
+.navigation__link__contacts {
+    display: none;
+
+    @media (min-width: 1200px) {
+        display: block;
     }
 }
 
 .navigation__link:hover {
+    color: #0085ba;
+}
+
+.text__blue {
     color: #0085ba;
 }

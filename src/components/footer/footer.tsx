@@ -29,7 +29,9 @@ const Footer = () => {
         <div className={styles.contacts}>
           <h3 className={styles.about__title}>Контакты</h3>
           <p className={styles.about__text}>
-            <span>+7 (85557) 5-90-12</span>
+            <a href="tel:+7(927)432-98-17">+7 (927) 432 98-17</a>
+            <br />
+            <a href="tel:+7(855)575-90-12">+7 (855) 575 90-12</a>
             <br />
             <a href="mailto:assessment@alabuga.ru">assessment@alabuga.ru</a>
             <br />

@@ -32,7 +32,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     font-family: PT-Sans-Caption, Arial, Helvetica, sans-serif;
     color: #3B66BA;
@@ -211,6 +211,14 @@
     height: 8px;
     border-radius: 50%;
     background-color: #00ADEF;
+}
+
+.text__medium__build {
+    font-size: 16px;
+
+    @media (min-width: 425px) {
+        font-size: 20px;
+    }
 }
 
 .text__mediumWithMargin {
