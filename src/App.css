@@ -1,23 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
 @font-face {
   font-family: Muller;
-  src: url('../fonts/Muller.ttf');
+  src: url('../fonts/Muller.woff') format('woff');
 }
 
 @font-face {
   font-family: Open-Sans;
-  src: url('../fonts/OpenSans.ttf');
+  src: url('../fonts/OpenSans.woff') format('woff');
 }
 
 @font-face {
   font-family: PT-Sans;
-  src: url('../fonts/PTSans-Regular.ttf');
+  src: url('../fonts/PTSans-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: PT-Sans-Caption;
-  src: url('../fonts/PTSansCaption-Regular.ttf');
+  src: url('../fonts/PTSansCaption-Regular.woff') format('woff');
 }
 
 body {
