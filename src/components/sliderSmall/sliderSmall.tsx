@@ -205,9 +205,9 @@ const SliderSmall = () => {
                 <h3 className={styles.block__title}>МАСТЕР КЛАССЫ</h3>
                 <div className={styles.block__text}>
                   <div className={styles.text__list}>
-                    <span className={styles.text__medium}>ИИ в изучении местности;</span>
-                    <span className={styles.text__medium}>ИИ в транспорте;</span>
-                    <span className={styles.text__medium}>ИИ в медицине;</span>
+                    <span className={styles.text__medium}>ИИ в изучении местности</span>
+                    <span className={styles.text__medium}>ИИ в транспорте</span>
+                    <span className={styles.text__medium}>ИИ в медицине</span>
                   </div>
                 </div>
               </div>

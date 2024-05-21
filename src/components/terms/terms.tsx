@@ -42,7 +42,7 @@ const Terms = () => {
             <span>Ты полон энергии и хочешь развиваться!</span>
             <LogoIcon color={'#3B66BA'} className={styles.content__text__bottomIcon} />
           </div>
-          <span className={styles.text__blue}>Наша компания</span> – лидер по мировым практикамю.
+          <span className={styles.text__blue}>Наша компания</span> – лидер по мировым практикам.
           Если Ты энергичен, хочешь развиваться и считаешь себя лидером, мы ждем именно Тебя!
         </div>
       </div>
