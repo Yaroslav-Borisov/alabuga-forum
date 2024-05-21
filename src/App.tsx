@@ -2,9 +2,16 @@ import './App.css';
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
 import Main from './components/main/main';
-
 import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
+import { Icon } from 'leaflet';
+import marker from './marker.svg';
+
+const myIcon = new Icon({
+  iconUrl: marker,
+  iconSize: [24, 48],
+  iconAnchor: [12, 48],
+});
 
 function App() {
   return (
@@ -31,7 +38,7 @@ function App() {
             жизни.
           </p>
         </div>
-        <MapContainer center={[55.8206, 52.0663]} zoom={7} scrollWheelZoom={false}>
+        <MapContainer center={[55.8206, 52.0663]} zoom={7}>
           {/* <TileLayer
           // attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -42,7 +49,7 @@ function App() {
             maxZoom={20}
             subdomains={['mt0', 'mt1', 'mt2', 'mt3']}
           />
-          <Marker position={[55.8206, 52.0663]} />
+          <Marker position={[55.8206, 52.0663]} icon={myIcon} />
         </MapContainer>
       </div>
 
