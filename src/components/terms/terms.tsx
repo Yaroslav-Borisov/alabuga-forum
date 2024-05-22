@@ -33,7 +33,7 @@ const Terms = () => {
           </div>
           <span className={styles.text__blue}>Заполняй заявку</span>,
           <br />
-          а мы оплатим пререлёт,
+          а мы оплатим перелёт,
           <br />
           проживание и питание
         </div>
