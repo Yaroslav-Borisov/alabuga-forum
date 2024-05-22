@@ -102,50 +102,80 @@ const SliderSmall = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          {/* <div className={styles.card}>
+          <div className={styles.card}>
             <div className={styles.card__titleWrapper}>
               <h2 className={styles.card__title__small}>
-                ДЕНЬ
-                <br />
-                РОБОТОТЕХНИКИ И СТРОИТЕЛЕЙ
+                ДЕНЬ БЕСПИЛОТНЫХ И СПУТНИКОВЫХ ТЕХНОЛОГИЙ
               </h2>
             </div>
             <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__robot)}>
               <div className={cn(styles.card__block, styles.card__block__robot)}>
                 <div className={styles.text__wrapper}>
                   <div className={cn(styles.text__list, styles.text__list__bordered)}>
-                    <span className={cn(styles.text__medium, styles.text__medium__robot)}>
-                      Мастер классы
+                    <span
+                      className={cn(
+                        styles.text__medium,
+                        styles.text__medium__build,
+                        styles.text__medium__robot
+                      )}
+                    >
+                      Выставка современных БПЛА
                     </span>
-                    <span className={cn(styles.text__medium, styles.text__medium__robot)}>
-                      Лекции
+                    <span
+                      className={cn(
+                        styles.text__medium,
+                        styles.text__medium__build,
+                        styles.text__medium__robot
+                      )}
+                    >
+                      Выставка морских БПЛА
                     </span>
-                    <span className={cn(styles.text__medium, styles.text__medium__robot)}>
-                      Выставка робототехники
+                    <span
+                      className={cn(
+                        styles.text__medium,
+                        styles.text__medium__build,
+                        styles.text__medium__robot
+                      )}
+                    >
+                      Выставка спутниковых технологий
                     </span>
-                    <span className={cn(styles.text__medium, styles.text__medium__robot)}>
-                      Экскурсия на ОПП
+                    <span
+                      className={cn(
+                        styles.text__medium,
+                        styles.text__medium__build,
+                        styles.text__medium__robot
+                      )}
+                    >
+                      Шоу дронов
                     </span>
-                    <span className={cn(styles.text__medium, styles.text__medium__robot)}>
-                      Турниры
+                    <span
+                      className={cn(
+                        styles.text__medium,
+                        styles.text__medium__build,
+                        styles.text__medium__robot
+                      )}
+                    >
+                      Лекция о будущем БПЛА и космонавтики
                     </span>
-                    <span className={cn(styles.text__medium, styles.text__medium__robot)}>
-                      Галограммы
-                    </span>
-                    <span className={cn(styles.text__medium, styles.text__medium__robot)}>
-                      Bim - модели и моделирование
-                    </span>
-                    <span className={cn(styles.text__medium, styles.text__medium__robot)}>
-                      Экскурсия на стройки
+                    <span
+                      className={cn(
+                        styles.text__medium,
+                        styles.text__medium__build,
+                        styles.text__medium__robot
+                      )}
+                    >
+                      Запуск шара в стратосферу
                     </span>
                   </div>
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
           <div className={styles.card}>
             <div className={styles.card__titleWrapper}>
-              <h2 className={styles.card__title__small}>ДЕНЬ ПРОЕКТИРОВАНИЯ И СТРОИТЕЛЬСТВА</h2>
+              <h2 className={styles.card__title__small}>ДЕНЬ РОБОТОТЕХНИКИ</h2>
             </div>
             <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__robot)}>
               <div className={cn(styles.card__block, styles.card__block__robot)}>
@@ -158,8 +188,8 @@ const SliderSmall = () => {
                         styles.text__medium__robot
                       )}
                     >
-                      3D и голографические модели лучшей экономической зоны в Европе, крупнейшего
-                      логистического центра в России им. Дэн Сяопина
+                      Выставка робототехники (манипуляторы, андроиды, сервисные роботы, станки ЧПУ,
+                      медицинская и образовательная робототехника)
                     </span>
                     <span
                       className={cn(
@@ -168,7 +198,7 @@ const SliderSmall = () => {
                         styles.text__medium__robot
                       )}
                     >
-                      Лекции о современных методах строительства
+                      Мастер-классы и лекции по робототехнике и микроэлектронике
                     </span>
                     <span
                       className={cn(
@@ -177,7 +207,7 @@ const SliderSmall = () => {
                         styles.text__medium__robot
                       )}
                     >
-                      Мастер-классы по BIM-проектированию
+                      Экскурсия на роботизированное опытное производство поддонов
                     </span>
                     <span
                       className={cn(
@@ -186,8 +216,7 @@ const SliderSmall = () => {
                         styles.text__medium__robot
                       )}
                     >
-                      Применение БПЛА в геодезии, проектировании, контроле строительства,
-                      картографии
+                      Бои роботов-убийц
                     </span>
                   </div>
                 </div>
@@ -324,9 +353,7 @@ const SliderSmall = () => {
         <SwiperSlide>
           <div className={styles.card}>
             <div className={styles.card__titleWrapper}>
-              <h2 className={styles.card__title__small}>
-                ДЕНЬ БЕСПИЛОТНЫХ И СПУТНИКОВЫХ ТЕХНОЛОГИЙ
-              </h2>
+              <h2 className={styles.card__title__small}>ДЕНЬ ПРОЕКТИРОВАНИЯ И СТРОИТЕЛЬСТВА</h2>
             </div>
             <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__robot)}>
               <div className={cn(styles.card__block, styles.card__block__robot)}>
@@ -339,7 +366,8 @@ const SliderSmall = () => {
                         styles.text__medium__robot
                       )}
                     >
-                      Выставка современных БПЛА
+                      3D модели лучшей экономической зоны в Европе, крупнейшего логистического
+                      центра в России им. Дэн Сяопина
                     </span>
                     <span
                       className={cn(
@@ -348,7 +376,7 @@ const SliderSmall = () => {
                         styles.text__medium__robot
                       )}
                     >
-                      Выставка морских БПЛА
+                      Лекции о современных методах строительства
                     </span>
                     <span
                       className={cn(
@@ -357,7 +385,7 @@ const SliderSmall = () => {
                         styles.text__medium__robot
                       )}
                     >
-                      Выставка школьных БПЛА
+                      Мастер-классы по BIM-проектированию
                     </span>
                     <span
                       className={cn(
@@ -366,86 +394,8 @@ const SliderSmall = () => {
                         styles.text__medium__robot
                       )}
                     >
-                      Выставка спутниковых технологий
-                    </span>
-                    <span
-                      className={cn(
-                        styles.text__medium,
-                        styles.text__medium__build,
-                        styles.text__medium__robot
-                      )}
-                    >
-                      Шоу дронов
-                    </span>
-                    <span
-                      className={cn(
-                        styles.text__medium,
-                        styles.text__medium__build,
-                        styles.text__medium__robot
-                      )}
-                    >
-                      Лекция о будущем БПЛА и космонавтики
-                    </span>
-                    <span
-                      className={cn(
-                        styles.text__medium,
-                        styles.text__medium__build,
-                        styles.text__medium__robot
-                      )}
-                    >
-                      Запуск шара
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.card}>
-            <div className={styles.card__titleWrapper}>
-              <h2 className={styles.card__title__small}>ДЕНЬ РОБОТОТЕХНИКИ</h2>
-            </div>
-            <div className={cn(styles.card__blockWrapper, styles.card__blockWrapper__robot)}>
-              <div className={cn(styles.card__block, styles.card__block__robot)}>
-                <div className={styles.text__wrapper}>
-                  <div className={cn(styles.text__list, styles.text__list__bordered)}>
-                    <span
-                      className={cn(
-                        styles.text__medium,
-                        styles.text__medium__build,
-                        styles.text__medium__robot
-                      )}
-                    >
-                      Выставка робототехники (манипуляторы, андроиды, сервисные роботы, станки ЧПУ,
-                      медицинская и образовательная робототехника)
-                    </span>
-                    <span
-                      className={cn(
-                        styles.text__medium,
-                        styles.text__medium__build,
-                        styles.text__medium__robot
-                      )}
-                    >
-                      Мастер-классы и лекции по робототехнике и микроэлектронике
-                    </span>
-                    <span
-                      className={cn(
-                        styles.text__medium,
-                        styles.text__medium__build,
-                        styles.text__medium__robot
-                      )}
-                    >
-                      Экскурсия на роботизированное опытное производство поддонов
-                    </span>
-                    <span
-                      className={cn(
-                        styles.text__medium,
-                        styles.text__medium__build,
-                        styles.text__medium__robot
-                      )}
-                    >
-                      Бои роботов-убийц
+                      Применение БПЛА в геодезии, проектировании, контроле строительства,
+                      картографии
                     </span>
                   </div>
                 </div>
