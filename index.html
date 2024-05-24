@@ -11,15 +11,90 @@
     <script type="module" src="/src/main.tsx"></script>
     <script>
       let params = (new URL(document.location)).searchParams; 
+
       window.addEventListener('b24:form:init', (event) => {
         let form = event.detail.object;
+        console.log(form)
+
         form.setValues({
-            "DYNAMIC_185_UF_CRM_15_1716529238": params.get("utm-medium")
+            "DYNAMIC_185_UF_CRM_15_1709032219283": params.get("utm_source")
         })
         form.setValues({
-            "DYNAMIC_185_UF_CRM_15_1716529252": params.get("utm-campaign")
+            "DYNAMIC_185_UF_CRM_15_1709032128595": params.get("utm_medium")
         });
-      });
+        form.setValues({
+            "DYNAMIC_185_UF_CRM_15_1709032153650": params.get("utm_campaign")
+        });
+        form.setValues({
+            "DYNAMIC_185_UF_CRM_15_1709032182621": params.get("utm_content")
+        });
+        form.setValues({
+            "DYNAMIC_185_UF_CRM_15_1709032200935": params.get("utm_term")
+        });
+
+      })
   </script>
+    <style>
+      #form .b24-form-field:nth-child(1){
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+      #form .b24-form-field:nth-child(2){
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+      #form .b24-form-field:nth-child(3){
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+      #form .b24-form-field:nth-child(4){
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+      #form .b24-form-field:nth-child(5){
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+  </style>
   </body>
 </html>

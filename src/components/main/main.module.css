@@ -85,3 +85,14 @@
         font-size: 45px;
     }
 }
+
+.form__wrapper {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    position: relative;
+}
