@@ -10,12 +10,16 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     <script>
+      let params = (new URL(document.location)).searchParams; 
+
       window.addEventListener('b24:form:init', (event) => {
-          let form = event.detail.object;
-          form.setValues({
-              "DYNAMIC_185_UF_CRM_15_1716529238": "UTM-Medium",
-              "DYNAMIC_185_UF_CRM_15_1716529252": "UTM-Campaign"
-          });
+        let form = event.detail.object;
+        form.setValues({
+            "DYNAMIC_185_UF_CRM_15_1716529238": params.get("utm-medium")
+        })
+        form.setValues({
+                "DYNAMIC_185_UF_CRM_15_1716529252": params.get("utm-campaign")
+            });
       });
   </script>
   </body>
