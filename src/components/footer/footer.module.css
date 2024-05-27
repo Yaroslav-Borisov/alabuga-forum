@@ -1,122 +1,183 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+
+  @media (min-width: 768px) {
     padding: 32px;
-    background-color: #ffffff;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 0;
+  }
 }
 
 .logoWrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.partnersWrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: baseline;
+  gap: 23px;
+
+  @media (max-width: 768px) {
+    align-self: center;
+  }
+
+  @media (max-width: 1024px) {
+    align-self: center;
+  }
+}
+
+.partnersIcon {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  max-width: 330px;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    max-width: 280px;
+  }
+}
+
+.partners__title {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  font-size: 20px;
+  font-family: PT-Sans, "Arial", "Helvetica", sans-serif;
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
 }
 
 .logoWrapper a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .logo {
-    display: none;
+  display: none;
 
-    @media (min-width: 1024px) {
-        display: block;
-    }
+  @media (min-width: 1024px) {
+    display: block;
+  }
 }
 
 .logo__text {
-    color: #515151;
-    font-size: 20px;
-    font-family: PT-Sans, "Arial", "Helvetica", sans-serif;
+  color: #515151;
+  font-size: 20px;
+  font-family: PT-Sans, "Arial", "Helvetica", sans-serif;
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
 }
 
 .logo__text__blue {
-    color: #00ADEF;
+  color: #00adef;
 }
 
 .logo__text .logo__text__blue {
-    display: none;
+  display: none;
 
-    @media (min-width: 530px) {
-        display: block;
-    }
-}
-
-.aboutWrapper {
-    display: flex;
-    gap: 72px;
+  @media (min-width: 530px) {
+    display: block;
+  }
 }
 
 .about {
-    display: none;
+  align-self: baseline;
+  display: none;
 
-    @media (min-width: 1024px) {
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
-        max-width: 425px;
-    }
-}
-
-.contacts {
+  @media (min-width: 1024px) {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    max-width: 200px;
+    max-width: 425px;
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-self: baseline;
+  gap: 24px;
+  max-width: 200px;
+
+  @media (max-width: 768px) {
+    align-self: center;
+  }
 }
 
 .contacts a {
-    color: #515151;
-    text-decoration: none;
+  color: #515151;
+  text-decoration: none;
 }
 
 .about__title {
-    margin: 0;
-    padding: 0;
-    color: #000000;
-    font-size: 20px;
-    font-family: PT-Sans, "Arial", "Helvetica", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  font-size: 20px;
+  font-family: PT-Sans, "Arial", "Helvetica", sans-serif;
 }
 
 .contacts .about__title {
-    display: none;
+  display: none;
 
-    @media (min-width: 768px) {
-        display: block;
-    }
+  @media (min-width: 768px) {
+    display: block;
+  }
 }
 
 .about__text {
-    margin: 0;
-    padding: 0;
-    color: #515151;
-    font-size: 16px;
-    font-family: PT-Sans, "Arial", "Helvetica", sans-serif;
-    line-height: 180%;
+  margin: 0;
+  padding: 0;
+  color: #515151;
+  font-size: 16px;
+  font-family: PT-Sans, "Arial", "Helvetica", sans-serif;
+  line-height: 180%;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .adress {
-    display: none;
+  display: none;
 
-    @media (min-width: 1024px) {
-        display: block;
-    }
+  @media (min-width: 1024px) {
+    display: block;
+  }
 }
 
 .footer__button {
-    display: none;
+  display: none;
 
-    @media (min-width: 768px) {
-        display: block;
-        align-self: flex-start;
-        padding: 12px 24px;
-        font-size: 16px;
-        font-family: PT-Sans, "Arial", "Helvetica", sans-serif;
-        color: #ffffff;
-        background-color: #00ADEF;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-    }
+  @media (min-width: 768px) {
+    display: block;
+    align-self: flex-start;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: PT-Sans, "Arial", "Helvetica", sans-serif;
+    color: #ffffff;
+    background-color: #00adef;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
 }
